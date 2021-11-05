@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "villainousfishai",
+  "version": "${version}",
+
+  "name": "Villainous Fish AI",
+  "description": "This mod makes vanilla fish react to items falling in the water, projectiles, and ignited tnt.",
+  "authors": [
+    "Cartoonish Villain"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/villainousfishai/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cartoonishvillain.villainousfishai.VillainousFishAI"
+    ]
+  },
+  "mixins": [
+    "villainousfishai.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
