@@ -4,8 +4,6 @@
   "package": "com.cartoonishvillain.villainousfishai.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-  ],
-  "client": [
     "FishAIMixin",
     "GoalAccessor"
   ],

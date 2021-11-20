@@ -9,5 +9,5 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 public interface GoalAccessor {
 
     @Accessor("goalSelector")
-    public GoalSelector accessGoalSelector();
+    public GoalSelector fishAIAccessGoalSelector();
 }
