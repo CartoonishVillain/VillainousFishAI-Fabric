@@ -20,7 +20,7 @@ public class FishAIMixin {
 
 
 	@Inject(at = @At("HEAD"), method = "tick()V")
-	private void tick(CallbackInfo info) {
+	private void fishtick(CallbackInfo info) {
 		Mob livingEntity = ((Mob) (Object) this);
 		if(livingEntity instanceof AbstractFish && !livingEntity.level.isClientSide && livingEntity.tickCount == 2){
 			GoalSelector goalSelector = ((GoalAccessor) livingEntity).fishAIAccessGoalSelector();
